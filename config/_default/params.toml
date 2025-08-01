@@ -44,6 +44,15 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
+[params.footer]
+  custom = '''
+    <small>
+      <a href="https://www.flaticon.com/free-icons/squirrel" title="squirrel icons">
+        Squirrel icon by Amethyst Prime - Flaticon
+      </a>
+    </small>
+  '''
+
 
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
@@ -172,3 +181,11 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
 
 [advertisement]
   # adsense = ""
+
+[params.header.logo]
+  image = "images/logo.png" # or .svg
+  alt = "Squirrel Shock"
+
+title = "Squirrel Shock"
+[params]
+description = "Chew the Cables"
